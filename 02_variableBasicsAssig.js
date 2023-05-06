@@ -25,3 +25,8 @@ var isActive = true;
 console.log("She is Dancer:", isDancer, "     ", "Type", typeof isDancer);
 console.log("She like Fruits:", isLikeFruits, " ", "Type", typeof isLikeFruits);
 console.log("She is Active:", isActive, "     ", "Type", typeof isActive);
+console.log("------");
+
+console.log("difference between null and undefined");
+console.log("null: null is a assignment value.It can be assigned to a variable as a representation of no value.null is an object.");
+console.log("undefined: undefined means a variable has been declared but not initialized. undefined is a type of itself.")
