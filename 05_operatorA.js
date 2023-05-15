@@ -1,11 +1,9 @@
 console.log(`1.Find the length of word and return it's length square.`);
 function squareOfWordLength(strValue){
-    var splitWord = strValue.split(" ");
-    var lengthWord = splitWord.length;
+    var lengthWord = strValue.length;
 
-    console.log(`Given word is: ${strValue}`);
-    console.log(`Length Of word is: ${lengthWord}`);
-    console.log(`It's Length of Square: ${lengthWord * lengthWord}`);
+    console.log(`Length Of String is: ${lengthWord}`);
+    console.log(`String Length of Square is: ${lengthWord * lengthWord}`);
 
 }
 squareOfWordLength("JavaScript"); 
@@ -19,9 +17,11 @@ function stringOperation(){
     var strLength = string.length;
     var splitWords = string.split(" ");
     var lengthSplitWord = splitWords.length;
-    console.log(`string Length is: ${strLength} Length of words is: ${lengthSplitWord}`);
-    console.log(`String length divided by total number of words is: ${strLength / lengthSplitWord}`);
-    console.log(`String length multiply by total number of words is: ${strLength * lengthSplitWord}`);
+    console.log(`Given String is: I am Angular Developer`);
+    console.log(`Length of string is: ${strLength}`);
+    console.log(`Number of words are: ${lengthSplitWord}`);
+    console.log(`String length / number of words is: ${strLength / lengthSplitWord}`);
+    console.log(`String length * total number of words is: ${strLength * lengthSplitWord}`);
 
 }
 stringOperation();
