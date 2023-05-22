@@ -18,7 +18,6 @@ console.log(``);
 console.log(`2. Write a function to get the sum of cube of numbers from 1 to 5`);
 function cubeOfNumbers(){
     var cubeAddition = 0;
-    var total;
     for(i = 1; i<=5 ; i++){//1*1*1+2*2*2....+5*5*5
        var cube = i*i*i;
        console.log(`Cube of ${i} : ${cube}`);
@@ -37,9 +36,7 @@ function oddPositionedChars(str){
         var char = str.charAt(i);
         if (i%2!==0 && char!=" ") {
             console.log(`Odd position: ${i} Character is: ${char}`);
-        } else {
-            
-        }
+        } 
     }   
 
 }
