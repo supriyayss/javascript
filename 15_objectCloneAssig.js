@@ -51,8 +51,8 @@ employee_info.salary.july_month = "80,000INR";
 employee_info.address.country = "United Kingdom";
 
 console.log("Updated Salary in original object is:", employee_info.salary.july_month);
-console.log("Updated Salary in cloned object is:", employee_info.salary.july_month);
+console.log("Updated Salary in cloned object is:", clonedDeepCopy.salary.july_month);
 console.log(``);
 
 console.log("Updated Country in original object is:", employee_info.address.country);
-console.log("Updated Country in cloned object is:", employee_info.address.country);
+console.log("Updated Country in cloned object is:", clonedDeepCopy.address.country);
