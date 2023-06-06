@@ -35,7 +35,7 @@ division(7);
 
 console.log(`============ Object Destructuring =============`);
 const student = {
-    name: "Stew",
+    namee: "Stew",
     age: 57,
     country: "US",
     pin: 223312,
@@ -50,8 +50,9 @@ const student = {
 // const degree = student.degree;
 // const country = student.country;
 
-const {rollNo,name, college, degree:course, country } = student;
-console.log({course});
+const {rollNo,namee, college, degree:course, country } = student;
+console.log({rollNo, namee,course});
+
 
 const { pin, age, isMarried=false } = student;  // const pin = student.pin;
 console.log(pin, age, isMarried);

@@ -31,8 +31,8 @@ const clonedObject = {...studentObj};
 
 clonedObject.city = "Mumbai";
 
-console.log(clonedObject.city);// 
-console.log(studentObj.city); // 
+console.log(clonedObject.city);
+console.log(studentObj.city);  
 
 
 let person = {

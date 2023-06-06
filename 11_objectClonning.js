@@ -9,12 +9,15 @@ let person = {
 let student = {
 
 }
-// student = person; // Shallow clone
+student = person; // Shallow clone
+// console.log(student);
+student.country ="india";
 
-Object.assign(student, person);
 
-student.age = 100;
-person.age = 90;
+// Object.assign(student, person);
+
+// // student.age = 100;
+// person.age = 90;
 
 console.table(person);
 console.table(student);
