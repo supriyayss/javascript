@@ -20,7 +20,9 @@ const valueOfKey99 = map.get(99);
 console.log(` Value of Key 99 is ${valueOfKey99}`);
 
 // Adding duplicate key
+console.log(`add duplicate key`);
 map.set(33, "Billgates");
+console.log(map);
 
 // Adding duplicate value
 map.set(55, "Jenny")
@@ -40,6 +42,7 @@ console.log(values);
 
 console.log("Traversing map");
 const keysOfMap = map.keys();
+console.log("keys",keysOfMap);
 for (const key of keysOfMap) { // 11
     const value = map.get(key);
     console.log(`${key} ${value}`);
